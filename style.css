@@ -92,11 +92,13 @@ body {
 
     width: 98%;
     height: 320px;
+   
 }
 
 .product{
 width: 40%;
-height: 310px;
+height: 360px;
+margin-top: 5px;
 }
 
 .img-container{
@@ -249,11 +251,15 @@ height:200px;
     height: 900px;
 }
 
+.heading{
 
-
-
-
-
+   height: 140px;
+ 
+   margin-left: 10px; 
+   /* border: 2px solid red; */
+   margin-top: 1px;
+   background-color: var(--bg-color);
+}
 
 
 
