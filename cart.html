@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+
+<body>
+    <!-- custom link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bs link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+
+    <body style="background-color: 	rgb(216, 207, 196);">
+        <!-- nav start -->
+        <div class="bg-prod-detail">
+
+
+            <nav class="navbar navbar-expand-lg w-100 nav-height  ">
+                <div class="container-fluid ">
+                    <img src="./images/website-img2.png" alt="" class="website-img ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="./home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./shop.html">Shop</a>
+                            </li>
+
+
+                            <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categories
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#id_livingroom">Sofa</a></li>
+                                <li><a class="dropdown-item" href="#id_bedroom">Coffee Table</a></li>
+                                <li><a class="dropdown-item" href="#id_decor">Side Table</a></li>
+                                <li><a class="dropdown-item" href="#id_decor">Bookshelf</a></li>
+                                <li><a class="dropdown-item" href="#id_decor">Wall Shelf</a></li>
+                                <li><a class="dropdown-item" href="#id_decor">Armchair</a></li>
+                            </ul>
+                        </li> -->
+                        </ul>
+                        <!-- box inside the 1st bg -->
+                        <div class="inside-box-cart">
+
+                            <p class="h1 fw-bolder  ">YOUR CART</p>
+                            <!-- <p class="h6 ms-3">Create a space that welcomes you back every day.</p> -->
+                            <!-- inside button shop now -->
+
+                        </div>
+                        <ul class="navbar-nav ms-auto fw-bold">
+                            <!-- <li class="nav-item ">
+                                <a class="nav-link" href="./cart.html">My Cart</a>
+                            </li> -->
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./login.html"><i
+                                        class="fa-solid fa-circle-user fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </nav>
+        <!-- nav end -->
+
+        <!-- table start -->
+        <div class="cart-table">
+            <table class="table" style="background-color: #dce5d1;">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            Product
+                        </th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td>
+                            <img class="cart-img" src="./images/yellow_chair.png" alt=""><br>
+                            <h6>cushion yellow chair </h6>
+                        </td>
+                        <td>
+                            <!-- <div class="quantity-btn">
+                                <div class="minus">
+                                    <button class="h-100">-</button>
+                                </div>
+                                <div class="quantity">
+                                    <h6 class="ms-2">1</h6>
+                                </div>
+                                <div class="plus">
+                                    <button class="h-100">+</button>
+                                </div>
+                            </div> -->
+                            <select name="" id="">
+                                <option class="fw-bold" value="">Quantity</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                            </select>
+                        </td>
+                        <td>$1200</td>
+                        <td>$1200</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img class="cart-img" src="./images/bedroom3.png" alt="">
+                            <h6> wallpanel & bedroom </h6>
+                        </td>
+                        <td>
+                            <!-- <div class="quantity-btn">
+                                <div class="minus">
+                                    <button class="h-100">-</button>
+                                </div>
+                                <div class="quantity">
+                                    <h6 class="ms-2">1</h6>
+                                </div>
+                                <div class="plus">
+                                    <button class="h-100">+</button>
+                                </div>
+                            </div> -->
+
+                            <select name="" id="">
+                                <option class="fw-bold" value="">Quantity</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                            </select>
+                        </td>
+                        <td>$570</td>
+                        <td>$570</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- table end -->
+        <!-- proceed to  payment  start-->
+        <div class="gift d-flex justify-content-center rounded-4" style="background-color: #dce5d1;">
+
+            <div class="total">
+                <p class="lh-1 mt-3"> <strong>Grand Total :-</strong> <span class="color"> $1770</span>
+
+                </p>
+
+                <h6 class="lh-1"></h6>
+            </div>
+            <div class="d-flex justify-content-center align-items-center ms-5">
+                <button class="btn btn-outline-dark"><a href="./order.html">Proceed to Pay -></a></button>
+            </div>
+
+
+        </div>
+
+        <!-- proceed to payment end-->
+
+    </body>
+
+</html>
