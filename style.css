@@ -1,11 +1,11 @@
 :root {
     --shadow: rgba(80, 60, 40, 0.25);
-    --bg-color: #dce5d1;
+    --bg-color:  #b9cbb2;
     --left-color: #f0e9dd;
     --text-color: #94b2a3;
     --body-color: #d8cfc4;
 }
-
+/* #dce5d1; */
 body {
     height: 100vh;
     width: 100vw;
@@ -155,7 +155,7 @@ body {
 
 /* offer cahir img */
 .chair>img {
-    height: 90%;
+    height: 93%;
 }
 
 .left {
@@ -173,7 +173,7 @@ body {
 .offer-badge {
     margin-left: 70px;
     width: 30%;
-    height: 70px;
+    height: 65px;
     border-radius: 50%;
     background-color: var(--text-color);
 }
@@ -435,9 +435,32 @@ body {
 }
 
 .payment-outer-box{
-    width: 50%;
+    width: 40%;
     height: 400px;
     /* border: 2px solid black; */
     margin-top: 150px;
     box-shadow: 5px 5px 5px black;
+}
+
+.input-box{
+
+    width: 200%;
+    border-radius: 10px;
+}
+
+
+.footer-web-img{
+    width: 48%;
+    height: 150px;
+}
+
+.footer{
+    width: 100%;
+    background-color:var(--bg-color);
+}
+
+
+.shop-footer{
+
+    margin-top: 50px;
 }
