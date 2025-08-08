@@ -1,6 +1,6 @@
 :root {
     --shadow: rgba(80, 60, 40, 0.25);
-    --bg-color:  #b9cbb2;
+    --bg-color:  #dce5d1;
     --left-color: #f0e9dd;
     --text-color: #94b2a3;
     --body-color: #d8cfc4;
@@ -363,39 +363,6 @@ body {
 
 }
 
-/* quatity setup */
-/* .quantity-btn{
-    width: 35%;
-    height: 32px;
-    border: 2px solid var(--bg-color);
-    display: flex;
-
-} */
-/*  
-.minus{
-    width: 36%;
-    height: 28px;
-    /* border: 2px solid red; */
-/* }
-
-.minus>button{
-    border: none;
-}
-
-.quantity{
-     width: 34%;
-    height: 28px;
-    border: 2px solid red;
-}
-.plus{
-    width: 34%;
-    height: 28px;
-    border: 2px solid red;
-}
-.plus>button{
-    border: none;
-}
- */
 .gift {
     width: 45%;
     height: 200px;
@@ -457,10 +424,4 @@ body {
 .footer{
     width: 100%;
     background-color:var(--bg-color);
-}
-
-
-.shop-footer{
-
-    margin-top: 50px;
 }
